@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Brick Breaker</title>
+    <meta charset="UTF-8" />
+    <!--estilo para la pantalla del juego-->
+    <style>
+      #gameScreen {
+        border: 1px solid black;
+      }
+      img {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!--imagen, identificador y ubicacion de donde se obtendra la imagen-->
+    <img id="img_ball" src="assets/images/ball.png" />
+    <!--imagen, identificador y ubicacion de donde se obtendra la imagen-->
+    <img id="img_brick" src="assets/images/brick.png" />
+
+    <!--nombre o id, ancho y alto de nuestro juego-->
+    <canvas id="gameScreen" width="800" height="600"></canvas>
+    <!--script donde se elaboro el juego-->
+    <script src="src/index.js"></script>
+  </body>
+</html>
